@@ -1,43 +1,49 @@
-# 💡 Project Title
+# 🏥 MedVault – Smart Medical History & Prescription Tracker
 
-**Type:** (Academic / Personal / Freelance / Group Project)  
-**Role:** (Your Role – e.g., Lead Developer, Team Coordinator, Designer)  
-**Timeline:** (e.g., Jan–Mar 2025)  
-**Tech Stack:** (e.g., Java • MySQL • HTML/CSS • ClickUp)
+**Type:** Academic Project  
+**Role:** Lead Designer, Frontend Developer & Documentation Owner  
+**Timeline:** May-July 2025  
+**Tech Stack:** HTML • CSS • MySQL 
 
 ---
 
 ## 🧩 Overview
-(Write 3–5 lines about what the project does and why it matters. What problem were you solving or exploring?)
+MedVault is a responsive web-based interface designed to simplify how small clinics and patients organize medical histories and prescriptions. The project focuses on creating a clean, accessible, and intuitive digital record-keeping experience, turning traditional medical files into a modern, user-friendly dashboard.
 
 ---
 
 ## 🚀 Features
-- (List 3–5 core functions)
-- (Example: Secure patient data storage using MySQL)
-- (Example: Prescription tracking and history view)
-- (Example: User login and access management)
-
+- Interactive homepage and navigation layout
+- Patient record creation, editing, and deletion  
+- Prescription tracking linked to each patient  
+- Searchable database for easy access  
+- Fully responsive and visually consistent design  
+- Organized record sections for quick access
+- Simple, modern UI with healthcare-inspired color palette
+  
 ---
 
 ## ⚙️ Architecture / Design Snapshot
-(Add a simple diagram or short paragraph on how the system works. You can use draw.io or screenshots from Packet Tracer, Figma, etc.)
+A three-layer architecture:
+1. **HTML:** Defines the content and structure of the interface
+2. **CSS:** Adds visual styling, layout responsiveness, and color schemes
+3. **Backend:** MySQL database with tables for patients, prescriptions, and visits  
 
 ---
 
 ## 🧠 What I Learned
-- (Example: How to translate requirements into technical milestones)
-- (Example: Leading a small dev team and managing timelines in ClickUp)
-- (Example: Writing documentation for non‑technical users)
+- Database normalization and ER design  
+- Writing reusable code and structured documentation
+- Creating consistent color themes and typography
+- Designing user-focused healthcare dashboards 
+- Translating user needs into technical features  
 
 ---
 
 ## 🖼️ Screenshots
-(If applicable)
-![Screenshot 1](./screenshots/sample1.png)
-![Screenshot 2](./screenshots/sample2.png)
+(Add screenshots once you have them — drag into `screenshots/` folder and commit again.)
 
 ---
 
 ## 📘 Case Study
-Read the full reflection → [Case Study](../CaseStudies/ProjectName_CaseStudy.md)
+Read the full reflection → [MedVault Case Study](../CaseStudies/MedVault_CaseStudy.md)
