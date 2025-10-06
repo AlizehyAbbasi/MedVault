@@ -15,26 +15,16 @@ You can extend this with **Visits** and **Prescriptions** later.
 - SQLAlchemy
 - MySQL (via `PyMySQL`)
 
-## 🚀 Quick Start
-1. **Create DB in MySQL**
-   - Create a database named `medvault` (e.g., via phpMyAdmin or MySQL CLI).
-2. **Configure environment**
-   - Copy `.env.example` to `.env` and set your DB URL, e.g.:
-     ```
-     FLASK_ENV=development
-     DATABASE_URL=mysql+pymysql://root:@127.0.0.1/medvault
-     ```
-3. **Create virtualenv & install deps**
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-4. **Run the app**
-   ```bash
-   flask --app app run --debug
-   ```
-   Visit http://127.0.0.1:5000/
+## 🚀 Local Setup (Flask)
+1. Create MySQL DB: `medvault`
+2. Copy `.env.example` → `.env` and set:
+   `DATABASE_URL=mysql+pymysql://root:@127.0.0.1/medvault`
+3. `python -m venv .venv`  
+   Windows: `.venv\Scripts\activate`  
+   macOS/Linux: `source .venv/bin/activate`
+4. `pip install -r requirements.txt`
+5. `flask --app app run --debug` → open http://127.0.0.1:5000/
+
 
 ## 📁 Structure
 ```
